@@ -4,32 +4,197 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Post</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <title>Posting</title>
     <script
       src="https://kit.fontawesome.com/f94fb2e990.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <div class="header_left">
+        <div class="header_left" onclick="location.href='index.html';">
           <span><i class="fas fa-arrow-left fa-lg"></i></span>
         </div>
         <div class="header_right">
-          <span><i class="far fa-bell-slash fa-lg"></i></span>
-          <span><i class="fas fa-search fa-lg"></i></span>
+          <span class="header_right_bell"
+            ><i class="far fa-bell-slash fa-lg"></i
+          ></span>
+          <span><i class="fas fa-sync-alt fa-lg"></i></span>
           <span><i class="fas fa-ellipsis-v fa-lg"></i></span>
         </div>
       </header>
       <main>
-        <div class="post">
-          <div class="post_header"></div>
-          <div class="post_content"></div>
-          <div class="post_values"></div>
+        <div class="posting">
+          <div class="posting_header">
+            <div class="posting_header__profile">
+              <span><i class="fas fa-user-circle fa-2x"></i></span>
+              <div class="posting_header__profile_info">
+                <div>익명</div>
+                <div class="posting_time">07/26 17:00</div>
+              </div>
+            </div>
+            <div class="posting_header__values">
+              <div class="posting_details_thumbs">
+                <span><i class="far fa-thumbs-up"></i></span>
+                <span>공감</span>
+              </div>
+              <div class="posting_values_star">
+                <span><i class="far fa-star"></i></span>
+                <span>스크랩</span>
+              </div>
+            </div>
+          </div>
+          <div class="posting_content">
+            <div class="posting_content__title">레전드다 ㅠㅠ</div>
+            <div class="posting_content__content">
+              혼성 남자 여자 다 우승 ㅜㅜㅜㅜㅜㅜ<br />
+              너무 자랑스럽다 ❤️❤️❤️
+            </div>
+          </div>
+          <div class="posting_values">
+            <div class="posting_details_thumbs">
+              <span><i class="far fa-thumbs-up fa-sm"></i></span>
+              <span>3</span>
+            </div>
+            <div class="posting_details_comments">
+              <span><i class="far fa-comment fa-sm"></i></span>
+              <span>5</span>
+            </div>
+            <div class="posting_values_star">
+              <span><i class="far fa-star fa-sm"></i></span>
+              <span>0</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="comments">
+          <div class="comments_header">
+            <div class="posting_header__profile">
+              <span><i class="fas fa-user-circle fa-lg"></i></span>
+              <div class="posting_header__profile_info">
+                <div>익명1</div>
+              </div>
+            </div>
+            <div class="comments_header__values">
+              <span><i class="far fa-comment fa-sm"></i></span>
+              <span><i class="far fa-thumbs-up fa-sm"></i></span>
+              <span><i class="fas fa-ellipsis-v fa-sm"></i></span>
+            </div>
+          </div>
+          <div class="comments_content">개인까지 가자!!!!!!!</div>
+          <div class="comments_info">
+            <div class="posting_time">07/26 17:01</div>
+            <div class="posting_details_thumbs">
+              <span><i class="far fa-thumbs-up fa-sm"></i></span>
+              <span>3</span>
+            </div>
+          </div>
+        </div>
+        <div class="reply_comments">
+          <div class="reply_comments_arrow"><i class="fas fa-reply"></i></div>
+          <div class="comments">
+            <div class="comments_header">
+              <div class="posting_header__profile">
+                <span><i class="fas fa-user-circle fa-lg"></i></span>
+                <div class="posting_header__profile_info">익명(글쓴이)</div>
+              </div>
+              <div class="comments_header__values">
+                <span><i class="far fa-thumbs-up fa-sm"></i></span>
+                <span><i class="fas fa-ellipsis-v fa-sm"></i></span>
+              </div>
+            </div>
+            <div class="comments_content">가자아🥇🥇👍</div>
+            <div class="comments_info">
+              <div class="posting_time">07/26 17:02</div>
+              <div class="posting_details_thumbs">
+                <span><i class="far fa-thumbs-up fa-sm"></i></span>
+                <span>3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="comments">
+          <div class="comments_header">
+            <div class="posting_header__profile">
+              <span><i class="fas fa-user-circle fa-lg"></i></span>
+              <div class="posting_header__profile_info">
+                <div>익명3</div>
+              </div>
+            </div>
+            <div class="comments_header__values">
+              <span><i class="far fa-comment fa-sm"></i></span>
+              <span><i class="far fa-thumbs-up fa-sm"></i></span>
+              <span><i class="fas fa-ellipsis-v fa-sm"></i></span>
+            </div>
+          </div>
+          <div class="comments_content">금메달 5개 고고</div>
+          <div class="comments_info">
+            <div class="posting_time">07/26 17:01</div>
+            <div class="posting_details_thumbs">
+              <span><i class="far fa-thumbs-up fa-sm"></i></span>
+              <span>3</span>
+            </div>
+          </div>
+        </div>
+        <div class="reply_comments">
+          <div class="reply_comments_arrow"><i class="fas fa-reply"></i></div>
+          <div class="comments">
+            <div class="comments_header">
+              <div class="posting_header__profile">
+                <span><i class="fas fa-user-circle fa-lg"></i></span>
+                <div class="posting_header__profile_info">익명(글쓴이)</div>
+              </div>
+              <div class="comments_header__values">
+                <span><i class="far fa-thumbs-up fa-sm"></i></span>
+                <span><i class="fas fa-ellipsis-v fa-sm"></i></span>
+              </div>
+            </div>
+            <div class="comments_content">대한민국 양궁 최고👍👍👍</div>
+            <div class="comments_info">
+              <div class="posting_time">07/26 17:02</div>
+              <div class="posting_details_thumbs">
+                <span><i class="far fa-thumbs-up fa-sm"></i></span>
+                <span>3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="comments">
+          <div class="comments_header">
+            <div class="posting_header__profile">
+              <span><i class="fas fa-user-circle fa-lg"></i></span>
+              <div class="posting_header__profile_info">
+                <div>익명4</div>
+              </div>
+            </div>
+            <div class="comments_header__values">
+              <span><i class="far fa-comment fa-sm"></i></span>
+              <span><i class="far fa-thumbs-up fa-sm"></i></span>
+              <span><i class="fas fa-ellipsis-v fa-sm"></i></span>
+            </div>
+          </div>
+          <div class="comments_content">마 제덕아 3관왕 가즈아!!</div>
+          <div class="comments_info">
+            <div class="posting_time">07/26 17:01</div>
+            <div class="posting_details_thumbs">
+              <span><i class="far fa-thumbs-up fa-sm"></i></span>
+              <span>3</span>
+            </div>
+          </div>
         </div>
       </main>
+      <div class="writing_comment">
+        <form action="">
+          <input type="checkbox" name="" id="" />
+          <span class="anonymous">익명</span>
+          <input type="text" name="" id="" placeholder="댓글을 입력하세요." />
+        </form>
+        <div>
+          <span><i class="far fa-paper-plane"></i></span>
+        </div>
+      </div>
     </div>
   </body>
 </html>

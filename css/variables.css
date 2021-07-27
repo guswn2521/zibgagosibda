@@ -1,8 +1,10 @@
 :root {
   --main-red-color: #c62917;
+  --main-green-color: #009fa9;
+  --main-yellow-color: rgb(255, 238, 0);
   --button-grey: #d4d4d4;
   --border-grey: #ececec;
-  --main-green-color: #009fa9;
+
   --content-grey: #737373;
   --detail-grey: #a6a6a6;
 }
